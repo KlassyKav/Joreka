@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOREKA INNOVATIONS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/joreka-logo.png" class="logo" alt="JOREKA Logo"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">The Collection</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+        <div class="text-box">
+            <h1>JOREKA: A Sustainable Vision for the Future</h1>
+            <p>Joreka is a purpose-driven brand committed to building a sustainable future through preservation and community empowerment. In response to pressing environmental issues like global warming and resource depletion, Joreka works to inspire individuals and communities to act now for long-term impact. Joreka believes that change starts with awareness and happens through collective action. The brand aims to create a sustainable future for generations to come.</p>
+        </div>
+    </section>
+
+    <!-- Written Response Section -->
+    <section class="Quotes">
+        <h1>A Personal Note</h1>
+        <p>One small step towards spreading awareness.</p>
+        <div class="row">
+            <div class="Views">
+                <img src="images/plant.png">
+                <div>
+                    <p>What started as a simple art project in school gradually grew into something more purposeful. I wanted to share these ideas beyond the classroom - using art as a quite way to spark reflection and awareness. I hope to encourage others to think about sustainability, the choices we make, and how we can move towards a more mindful, balanced way of living.<br> Its just my small way of giving back to the society and contirbuting in the way I know best, through creativity and awareness. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h1><strong>Little Steps.<br>Lasting Impact.</strong></h1>
+    </section>
+    
+    
+
+    <!-- Mission Statement -->
+    <section class="Statement"> 
+        <h4>Our Mission</h4>
+        <p>Preserving Tomorrow's Future Today.</p>
+    </section>
+
+    <!-- Awareness Disclaimer -->
+    <section class="Statement">
+        <h4>Disclaimer</h4>
+        <p>This is a hypothetical brand created for academic and awareness purposes. The goal is to inspire sustainable thinking through design—not a real company, but a real mission.</p>
+    </section>
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu(){
+            navLinks.style.right = "-277px"; 
+        }
+    </script>
+</body>
+</html>
